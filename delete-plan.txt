@@ -1,0 +1,52 @@
+﻿Will delete 51 files totaling 13828.2 MB
+   912.3 MB  Anaconda3-2024.06-1-Windows-x86_64.exe
+   208.5 MB  Antigravity.exe
+   120.0 MB  Cursor Setup 0.40.4 - x64 (1).exe
+   120.0 MB  Cursor Setup 0.40.4 - x64.exe
+   122.2 MB  Cursor Setup 0.42.4 - x64.exe
+   102.3 MB  DiscordSetup (1).exe
+   114.7 MB  DiscordSetup (2).exe
+   117.4 MB  DiscordSetup (3).exe
+   117.4 MB  DiscordSetup (4).exe
+   109.4 MB  DiscordSetup.exe
+   162.8 MB  eclipse-inst-jre-win64 (1).exe
+   162.8 MB  eclipse-inst-jre-win64 (2).exe
+   132.3 MB  eclipse-inst-jre-win64.exe
+   356.9 MB  Evernote-latest.exe
+   120.9 MB  Fathom-1.41.0 Setup (1).exe
+   120.9 MB  Fathom-1.41.0 Setup.exe
+ 1,098.2 MB  gfx_win_101.8136.exe
+   164.6 MB  GitHubDesktopSetup-x64 (1).exe
+   159.7 MB  GitHubDesktopSetup-x64.exe
+   239.5 MB  GoogleDriveSetup.exe
+   121.9 MB  LockDownBrowserOEMSetup.exe
+   184.6 MB  Loom Setup 0.235.1.exe
+   121.0 MB  Loom Setup 0.254.3.exe
+   155.7 MB  Loom Setup 0.331.1.exe
+   148.9 MB  OBS-Studio-31.0.4-Windows-Installer.exe
+   191.7 MB  OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.4_7.tar.gz
+   182.2 MB  Popcorn-Time-0.5.1-win64 (1).zip
+   118.3 MB  Popcorn-Time-0.5.1-win64-0.44.5-Setup (1).exe
+   118.3 MB  Popcorn-Time-0.5.1-win64-0.44.5-Setup.exe
+   146.3 MB  Popcorn-Time-0.5.1-win64-0.44.5.zip
+   147.7 MB  Popcorn-Time-0.5.1-win64-Setup.exe
+   182.2 MB  Popcorn-Time-0.5.1-win64.zip
+   825.3 MB  pycharm-2025.1.exe
+   715.8 MB  pycharm-professional-2024.1.4.exe
+   836.7 MB  pycharm-professional-2024.3.5.exe
+   161.4 MB  python-code (1).zip
+   161.4 MB  python-code (2).zip
+   161.4 MB  python-code.zip
+   119.5 MB  SlackSetup.exe
+   167.4 MB  SnackAICampaign.zip
+   245.6 MB  Somiibo-Setup.exe
+   239.9 MB  Streamlabs+Desktop+Setup+1.18.3-g9anGHINpwmUvAj.exe
+   857.2 MB  SurfaceLaptop5_Win11_22621_25.091.9091.0.msi
+   215.8 MB  upscayl-2.11.5-win.exe
+ 1,587.5 MB  videoplayback.webm
+   117.3 MB  VirtualBox-7.1.6-167084-Win (1).exe
+   117.3 MB  VirtualBox-7.1.6-167084-Win.exe
+   258.2 MB  VMware-Horizon-Client-2312.1-8.12.1-23531249.exe
+   219.0 MB  WebCatalog Setup 73.8.0.exe
+   119.9 MB  YouTube.Music.Desktop.App-2.0.10.Setup (1).exe
+   119.9 MB  YouTube.Music.Desktop.App-2.0.10.Setup.exe
