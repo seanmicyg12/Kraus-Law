@@ -49,7 +49,7 @@ body {
 
 /* Gold shimmer text */
 .text-shimmer {
-  background: linear-gradient(110deg, #c9a961 30%, #f5ecd8 50%, #c9a961 70%);
+  background: linear-gradient(110deg, #b8922a 30%, #f0d080 50%, #b8922a 70%);
   background-size: 200% 100%;
   -webkit-background-clip: text;
   background-clip: text;
