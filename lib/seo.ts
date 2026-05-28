@@ -7,8 +7,8 @@ export const SITE = {
   description:
     "Grace Kraus is a trusted Elmhurst, IL attorney serving DuPage County. Free consultations for divorce, family law, real estate closings, and Social Security disability appeals.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://krauslaw.example",
-  phone: process.env.NEXT_PUBLIC_PHONE || "(630) 555-0100",
-  phoneRaw: "+16305550100",
+  phone: process.env.NEXT_PUBLIC_PHONE || "(630) 832-0452",
+  phoneRaw: "+16308320452",
   email: "intake@krauslaw.example",
   address: {
     street: "269 N Oaklawn Ave",
