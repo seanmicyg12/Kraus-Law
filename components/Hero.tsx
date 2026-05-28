@@ -6,7 +6,7 @@ import { SITE } from "@/lib/seo";
 
 export default function Hero() {
   return (
-    <section className="relative hero-radial paper-texture pt-32 lg:pt-40 pb-24 lg:pb-32 overflow-hidden">
+    <section className="relative hero-radial pt-32 lg:pt-40 pb-24 lg:pb-32 overflow-hidden">
       {/* Decorative glow */}
       <div className="pointer-events-none absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-gold-500/10 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-40 -left-40 w-[500px] h-[500px] rounded-full bg-navy-500/10 blur-3xl" />
@@ -18,7 +18,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 rounded-full bg-cream-50/10 backdrop-blur-sm border border-gold-400/30 px-3.5 py-1.5 text-xs font-medium text-gold-300"
+              className="inline-flex items-center gap-2 rounded-full bg-navy-900/10 backdrop-blur-sm border border-gold-600/40 px-3.5 py-1.5 text-xs font-medium text-navy-800"
             >
               <span className="flex h-1.5 w-1.5 rounded-full bg-green-400 pulse-dot relative" />
               Accepting new clients · Free 20-minute consultations
@@ -28,7 +28,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.05 }}
-              className="mt-6 font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.05] tracking-tight"
+              className="mt-6 font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-navy-900 leading-[1.05] tracking-tight"
             >
               Steady legal counsel for <span className="text-shimmer">life's biggest</span> chapters.
             </motion.h1>
@@ -37,7 +37,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.12 }}
-              className="mt-6 text-lg text-white/90 max-w-xl leading-relaxed"
+              className="mt-6 text-lg text-navy-800 max-w-xl leading-relaxed"
             >
               Grace Kraus has guided Elmhurst families through divorce, custody, home closings, and Social Security disability appeals for over a decade. One attorney, every step — no junior hand-offs.
             </motion.p>
@@ -57,7 +57,7 @@ export default function Hero() {
               </Link>
               <a
                 href={`tel:${SITE.phoneRaw}`}
-                className="inline-flex items-center justify-center gap-2 rounded-md border border-cream-50/30 bg-cream-50/5 backdrop-blur-sm px-6 py-3.5 text-base font-semibold text-cream-50 hover:bg-cream-50/10 transition"
+                className="inline-flex items-center justify-center gap-2 rounded-md border border-navy-900/30 bg-navy-900/8 backdrop-blur-sm px-6 py-3.5 text-base font-semibold text-navy-900 hover:bg-navy-900/15 transition"
               >
                 <Phone className="h-4 w-4" />
                 Call {SITE.phone}
@@ -68,11 +68,11 @@ export default function Hero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="mt-10 flex flex-wrap gap-x-6 gap-y-3 text-sm text-white/80"
+              className="mt-10 flex flex-wrap gap-x-6 gap-y-3 text-sm text-navy-700"
             >
               <div className="flex items-center gap-1.5">
                 <div className="flex">{[0,1,2,3,4].map(i => <Star key={i} className="h-4 w-4 fill-gold-400 text-gold-400"/>)}</div>
-                <span className="font-semibold text-white">4.9</span>
+                <span className="font-semibold text-navy-900">4.9</span>
                 <span>· 180+ Google reviews</span>
               </div>
               <div className="flex items-center gap-1.5"><ShieldCheck className="h-4 w-4 text-gold-400"/>Illinois Bar · 2014</div>
