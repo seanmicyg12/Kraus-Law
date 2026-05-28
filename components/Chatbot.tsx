@@ -20,7 +20,7 @@ const GREETING: Msg = {
 };
 
 export default function Chatbot() {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   const [messages, setMessages] = useState<Msg[]>([GREETING]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -58,21 +58,29 @@ export default function Chatbot() {
 
   return (
     <>
-      <button
-        onClick={() => setOpen(true)}
-        className="fixed bottom-5 right-5 z-30 flex items-center gap-2 rounded-full bg-gradient-to-br from-navy-900 to-navy-800 px-4 py-3.5 text-sm font-semibold text-cream-50 shadow-2xl hover:scale-105 active:scale-95 transition-all"
-        aria-label="Open AI assistant"
-      >
-        <span className="relative">
-          <MessageCircle className="h-5 w-5" />
-          {unread > 0 && (
-            <span className="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-gold-400 text-[10px] font-bold text-navy-900">
-              {unread}
+      <AnimatePresence>
+        {!open && (
+          <motion.button
+            initial={{ opacity: 0, scale: 0.85, y: 8 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            exit={{ opacity: 0, scale: 0.85, y: 8 }}
+            transition={{ duration: 0.2 }}
+            onClick={() => setOpen(true)}
+            className="fixed bottom-6 right-6 z-30 flex items-center gap-3 rounded-2xl bg-gradient-to-br from-navy-900 to-navy-800 px-6 py-4 text-base font-semibold text-cream-50 shadow-2xl hover:scale-105 active:scale-95 transition-all ring-2 ring-gold-400/40"
+            aria-label="Open AI assistant"
+          >
+            <span className="relative">
+              <MessageCircle className="h-6 w-6" />
+              {unread > 0 && (
+                <span className="absolute -top-1.5 -right-1.5 flex h-5 w-5 items-center justify-center rounded-full bg-gold-400 text-[11px] font-bold text-navy-900">
+                  {unread}
+                </span>
+              )}
             </span>
-          )}
-        </span>
-        <span className="hidden sm:inline">Ask AI</span>
-      </button>
+            <span>Ask AI</span>
+          </motion.button>
+        )}
+      </AnimatePresence>
 
       <AnimatePresence>
         {open && (
